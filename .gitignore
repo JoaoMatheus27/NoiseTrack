@@ -1,0 +1,211 @@
+### ----------------------------------
+### NoiseTrack Ultimate Gitignore
+### Projeto React Native/Expo/TypeScript
+### ----------------------------------
+
+### ===[ DEPENDÊNCIES ]=== ###
+node_modules/
+jspm_packages/
+.bower-cache/
+.pnp/
+.pnp.js
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+### ===[ EXPO ]=== ###
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+.bundle-*
+*.map
+.expo-metro-cache/
+
+### ===[ NATIVE ]=== ###
+android/
+ios/
+.gradle/
+**/build/
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.orig.*
+.kotlin/
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.apk
+*.aab
+*.dSYM.zip
+*.xcarchive
+
+### ===[ METRO/BUNDLER ]=== ###
+.metro*
+.cache/
+.hot/
+
+### ===[ SISTEMAS OPERACIONAIS ]=== ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+### ===[ IDEs e EDITORES ]=== ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+### ===[ AMBIENTE/VARIÁVEIS ]=== ###
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+secrets.json
+credentials.*
+*.env
+app.config.local.js
+app.config.local.ts
+
+### ===[ TYPESCRIPT ]=== ###
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+dist-tsc/
+out-tsc/
+
+### ===[ TESTES ]=== ###
+coverage/
+.nyc_output/
+*.lcov
+jest-test-results.json
+*.coverage
+*.junit
+test-results.xml
+
+### ===[ BUILD/OUTPUT ]=== ###
+build/
+dist/
+out/
+release/
+*.min.js
+*.min.css
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.gz
+
+### ===[ DOCUMENTAÇÃO ]=== ###
+docs/_build/
+site/
+*.chm
+*.pdf
+*.docx
+*.aux
+*.toc
+*.out
+*.dvi
+*.ps
+*.md.pdf
+
+### ===[ DIVERSOS ]=== ###
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.patch
+*.diff
+*.err
+*.rej
+*.orig
+*.temp
+*.tmp
+*.swp
+*.swo
+*~
+*.luacheckrc
+.directory
+.Trash-*
+.nfs*
+*.pot
+*.mo
+*.csv
+*.dat
+*.dump
+*.sql
+*.sqlite
+*.rdb
+*.rdx
+*.aof
+*.pid
+*.rdb
+*.aof
+*.pid
+*.rdb
+*.aof
+*.pid
